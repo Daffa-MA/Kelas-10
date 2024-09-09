@@ -1,0 +1,35 @@
+div {
+    width: 70%;
+    margin: auto;
+}
+h1{
+    color: blue;
+    position: fixed;
+    top: 10px;
+}
+
+h2{
+    color: red;
+}
+p{
+    border: 1px solid black;
+    padding: 30px;
+}
+img{
+    margin: 50px;
+}
+
+ul li{
+background-color: brown;
+}
+
+#p1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.huruf
+{font-size: 30px;}
+.warna
+{background-color: cornflowerblue;}
+.bentuk 
+{font-style: italic;}
