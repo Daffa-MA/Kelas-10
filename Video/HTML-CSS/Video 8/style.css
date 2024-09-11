@@ -1,0 +1,82 @@
+div {
+    width: 70%;
+    margin: auto;
+}
+h1{
+    background-color: orange;
+    color: greenyellow;
+    position: fixed;
+    top: 10px;
+    border: 3px solid darkorange;
+}
+
+h2{
+    color: red;
+}
+p{
+    border: 1px solid black;
+    padding: 30px;
+}
+img{
+    margin: 50px;
+}
+
+ul li{
+background-color: darkorange;
+color: yellowgreen;
+}
+
+#p1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.huruf
+{font-size: 30px;}
+.warna
+{background-color:yellowgreen;}
+.bentuk 
+{font-style: italic;}
+
+a{
+   text-decoration: none;
+}
+ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding-left: 0px;
+    background-color: darkorange;
+}
+ul li {
+    color: yellowgreen;
+    display: block;
+    float: left;
+    position: relative;
+    padding: 10px;
+    border: 1px greenyellow;
+    text-decoration: none;
+}
+ul li a {
+    color: yellowgreen;
+}
+ul li:hover{
+    background-color: red;
+    cursor: pointer;
+}
+ul li ul {
+    background: orange;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+    display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover{
+    visibility: visible;
+    display: block;
+}
+ul li ul li {
+    clear: both;
+    width: 100%;
+}  
