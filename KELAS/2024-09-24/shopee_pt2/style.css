@@ -62,9 +62,15 @@ top: 420px;
 /* border: 1px solid black; */
 }
 
-.title {
-    position: absolute;
+.title{
+    width: 50%;
+    height: 100px;
+    left: 600px;
+    top: -80%;
+    position: relative;
+    background: red;
+}
 
-
+.title h1{
 
 }
