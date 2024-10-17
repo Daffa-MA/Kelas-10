@@ -230,19 +230,19 @@ h5{
 }
 
 .img1:hover{
-  transform: scale(0.85);
+  transform: scale(0.90);
 }
 
 .img2:hover{
-  transform: scale(0.85);
+  transform: scale(0.90);
 }
 
 .img3:hover{
-  transform: scale(0.85);
+  transform: scale(0.90);
 }
 
 .img4:hover{
-  transform: scale(0.85);
+  transform: scale(0.90);
 }
 
 .img1{
@@ -288,4 +288,63 @@ h5{
   margin-left:800px;
   width: 120px;
   height: 55px;
+}
+
+.col7{
+  margin-left: -110px;
+  width: 117%;
+  height: 570px;
+}
+
+.col7 img{
+
+  width: 100%;
+  height: 500px;
+}
+
+.lingk{
+  display: flex;
+  gap: 10px;
+  margin-left: 45%;
+  margin-top: -20px;
+}
+
+.ling{
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  cursor: pointer;
+
+}
+
+.l1{
+  background-color: rgb(0, 139, 177);
+}
+
+.l2{
+  background-color:rgb(0, 139, 177) ;
+}
+
+.l3{
+  background-color:rgb(0, 139, 177);
+}
+
+.l1:hover{
+  background-color: rgb(0, 123, 157);
+}
+
+.l2:hover{
+  background-color: rgb(0, 123, 157);
+}
+
+.l3:hover{
+  background-color: rgb(0, 123, 157);
+}
+
+.col8{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
