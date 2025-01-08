@@ -17,7 +17,7 @@
     ?>
     <div class="detail-produk">
         <h2><?=  $row['produk']; ?></h2>
-        <img src="images/<?= $row["gambar"] ?>" alt="" style="width="200" height="100"">
+        <img src="images/<?= $row["gambar"] ?>" alt="" style="width=200px; height=100px;">
         <p><?= $row["deskripsi"]; ?></p>
         <p><?= $row["stok"]; ?></p>
         <p><strong><?= $row["harga"] ?></strong></p>

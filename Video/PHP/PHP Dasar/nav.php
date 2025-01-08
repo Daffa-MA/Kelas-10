@@ -10,7 +10,7 @@
 
     if (isset($_get['menu'])){
         $menu = $_GET['menu'];
-
+        
         echo $menu;
     }
 
