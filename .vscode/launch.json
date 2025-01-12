@@ -1,6 +1,62 @@
 {
     "configurations": [
         {
+            "type": "java",
+            "name": "InputDataScanner",
+            "request": "launch",
+            "mainClass": "InputDataScanner",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "lat1",
+            "request": "launch",
+            "mainClass": "lat1",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "lat3",
+            "request": "launch",
+            "mainClass": "lat3",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "lat1",
+            "request": "launch",
+            "mainClass": "BelajarjavaDasar.lat1",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "lat",
+            "request": "launch",
+            "mainClass": "BelajarjavaDasar.lat",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "lat1",
+            "request": "launch",
+            "mainClass": "BelajarJava.lat1",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "java.main",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",

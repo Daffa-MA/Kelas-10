@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "JavaDasar/BelajarjavaDasar",
+        "JavaDasar",
+        "JAVA/BelajarJavaDasar/src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
