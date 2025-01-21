@@ -2,7 +2,7 @@
 $host = "127.0.0.1";
 $user = "root";
 $password = "";
-$database = "sekolah";
+$database = "tropizz_parfume"; // Updated database name
 $koneksi = mysqli_connect($host, $user, $password, $database);
 
 if (!$koneksi) {
@@ -14,7 +14,7 @@ if (!$koneksi) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2024-11-05</title>
+    <title>TROPIZZ Parfume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,15 +24,12 @@ if (!$koneksi) {
                 <img src="images/logo.png" alt="Logo">
             </div>
         
-        <div class="sekolah">
-            <h2>SMKN 2 BUDURAN</h2>
-        </div>
         <div class="nav">
             <ul>
                 <li><a href="?menu=home">Home</a></li>
-                <li><a href="?menu=sejarah">Sejarah</a></li>
-                <li><a href="?menu=jadwal">Jadwal</a></li>
-                <li><a href="?menu=jurusan">Jurusan</a></li>
+                <li><a href="?menu=produk">Produk</a></li>
+                <li><a href="?menu=cart">Cart</a></li>
+                <li><a href="?menu=admin">Admin</a></li>
                 <li><a href="?menu=contact">Contact</a></li>
                 <li><a href="?menu=tentang">Tentang</a></li>
             </ul>
@@ -50,14 +47,14 @@ if (!$koneksi) {
                 case "home":
                     require_once("pages/home.php");
                     break;
-                case "sejarah":
-                    require_once("pages/sejarah.php");
+                case "produk":
+                    require_once("pages/produk.php");
                     break;
-                case "jadwal":
-                    require_once("pages/jadwal.php");
+                case "cart":
+                    // Include cart page here
                     break;
-                case "jurusan":
-                    require_once("pages/jurusan.php");
+                case "admin":
+                    require_once("pages/admin.php");
                     break;
                 case "contact":
                     require_once("pages/contact.php");

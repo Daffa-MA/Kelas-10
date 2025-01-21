@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "project_segitiga",
+            "request": "launch",
+            "mainClass": "project_segitiga",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "lat6",
+            "request": "launch",
+            "mainClass": "lat6",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "lat5",
+            "request": "launch",
+            "mainClass": "lat5",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "lat4",
+            "request": "launch",
+            "mainClass": "lat4",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
             "name": "InputDataScanner",
             "request": "launch",
             "mainClass": "InputDataScanner",
