@@ -37,6 +37,7 @@ session_start();
         <i class="fas fa-check-circle"></i>
     </div>
     <h2>SUCCESS</h2>
+    <img src="images/success.png" alt="Success">
     <p>You have successfully placed your order!</p>
     <p class="invoice-number">Invoice Number: <?php echo $_SESSION['invoice_number']; ?></p>
     <p>Total Price: IDR <?php echo number_format($_SESSION['total_price'], 0, ',', '.'); ?></p>

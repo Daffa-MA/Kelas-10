@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "smkn2",
+            "request": "launch",
+            "mainClass": "smkn2",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "xrpl",
+            "request": "launch",
+            "mainClass": "xrpl",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
             "name": "project_segitiga",
             "request": "launch",
             "mainClass": "project_segitiga",

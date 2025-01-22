@@ -1,4 +1,4 @@
-.<?php
+<?php
 session_start();
 include 'db/database.php';
 
@@ -32,6 +32,7 @@ foreach ($cart_items as $product_id => $quantity) {
             <tr>
                 <th>Product Name</th>
                 <th>Quantity</th>
+                <th>Price</th>
                 <th>Action</th>
             </tr>
         </thead>
@@ -46,6 +47,7 @@ foreach ($cart_items as $product_id => $quantity) {
                     ?>
                     <td><?php echo htmlspecialchars($item['name']); ?></td>
                     <td><?php echo htmlspecialchars($quantity); ?></td>
+                    <td>IDR <?php echo number_format($item['price'], 0, ',', '.'); ?></td>
                     <td><a href="remove_from_cart.php?id=<?php echo $product_id; ?>" class="btn btn-danger">Remove</a></td>
                 </tr>
             <?php endforeach; ?>
