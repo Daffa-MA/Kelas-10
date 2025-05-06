@@ -1,6 +1,6 @@
 public class smkn2 {
-    public static void main(String[] args) {
-        xrpl object = new xrpl();
+public static void main(String[] args) {
+    xrpl object = new xrpl();
         System.out.println("nama saya : " + object.nama);
         System.out.println("alamat saya : "+ object.alamt);
         System.out.println("tahun lahir saya : " + object.tahunlahir);

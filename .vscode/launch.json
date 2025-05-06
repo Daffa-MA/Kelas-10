@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mainbalok",
+            "request": "launch",
+            "mainClass": "mainbalok",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "mainkubus",
+            "request": "launch",
+            "mainClass": "mainkubus",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "siswa",
+            "request": "launch",
+            "mainClass": "siswa",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "nilai_rata2",
+            "request": "launch",
+            "mainClass": "nilai_rata2",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
+            "name": "Lkel",
+            "request": "launch",
+            "mainClass": "Lkel",
+            "projectName": "Kelas_10_582bb1ff"
+        },
+        {
+            "type": "java",
             "name": "smkn2",
             "request": "launch",
             "mainClass": "smkn2",
