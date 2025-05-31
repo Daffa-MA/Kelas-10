@@ -1,29 +1,33 @@
 import java.util.Scanner;
 
-class raport {
-    int tugas;
-    int uts;
-    int uas;
+public class Raport {
+    private int tugas;
+    private int uts;
+    private int uas;
 
-
-
-}
-public class Raport{
-    public static void main(String[] args) {
-        raport siswa1 = new raport();
+    public void inputNilai() {
         Scanner inputUser = new Scanner(System.in);
+        
         System.out.println("Masukan nilai tugas : ");
-        siswa1.tugas = inputUser.nextInt();
+        this.tugas = inputUser.nextInt();
         System.out.println("Masukan nilai UTS : ");
-        siswa1.uts = inputUser.nextInt();
+        this.uts = inputUser.nextInt();
         System.out.println("Masukan nilai UAS : ");
-        siswa1.uas = inputUser.nextInt();
+        this.uas = inputUser.nextInt();
+    }
 
+    public void tampilkanNilai() {
         System.out.println();
+        System.out.println("Nilai tugas : " + this.tugas);
+        System.out.println("Nilai UTS : " + this.uts);
+        System.out.println("Nilai UAS : " + this.uas);
+        double rataRata = (this.tugas + this.uts + this.uas) / 3.0;
+        System.out.println("Rata-rata : " + rataRata);
+    }
 
-        System.out.println("Nilai tugas : " + siswa1.tugas);
-        System.out.println("Nilai UTS : " + siswa1.uts);
-        System.out.println("Nilai UAS : " + siswa1.uas);
-        System.out.println( "Rata-rata : " + siswa1.tugas + siswa1.uts + siswa1.uas / 3);
+    public static void main(String[] args) {
+        Raport siswa1 = new Raport();
+        siswa1.inputNilai();
+        siswa1.tampilkanNilai();
     }
 }

@@ -1,189 +1,215 @@
 {
-    "configurations": [
+  "configurations": [
+    {
+      "type": "java",
+      "name": "shoot",
+      "request": "launch",
+      "mainClass": "shoot",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "mainbalok",
+      "request": "launch",
+      "mainClass": "mainbalok",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "mainkubus",
+      "request": "launch",
+      "mainClass": "mainkubus",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "siswa",
+      "request": "launch",
+      "mainClass": "siswa",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "nilai_rata2",
+      "request": "launch",
+      "mainClass": "nilai_rata2",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "Lkel",
+      "request": "launch",
+      "mainClass": "Lkel",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "smkn2",
+      "request": "launch",
+      "mainClass": "smkn2",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "xrpl",
+      "request": "launch",
+      "mainClass": "xrpl",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "project_segitiga",
+      "request": "launch",
+      "mainClass": "project_segitiga",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "lat6",
+      "request": "launch",
+      "mainClass": "lat6",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "lat5",
+      "request": "launch",
+      "mainClass": "lat5",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "lat4",
+      "request": "launch",
+      "mainClass": "lat4",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "InputDataScanner",
+      "request": "launch",
+      "mainClass": "InputDataScanner",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "lat1",
+      "request": "launch",
+      "mainClass": "lat1",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "lat3",
+      "request": "launch",
+      "mainClass": "lat3",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "lat1",
+      "request": "launch",
+      "mainClass": "BelajarjavaDasar.lat1",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "lat",
+      "request": "launch",
+      "mainClass": "BelajarjavaDasar.lat",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "lat1",
+      "request": "launch",
+      "mainClass": "BelajarJava.lat1",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "type": "java",
+      "name": "main",
+      "request": "launch",
+      "mainClass": "java.main",
+      "projectName": "Kelas_10_582bb1ff"
+    },
+    {
+      "name": "(gdb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
         {
-            "type": "java",
-            "name": "mainbalok",
-            "request": "launch",
-            "mainClass": "mainbalok",
-            "projectName": "Kelas_10_582bb1ff"
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
         },
         {
-            "type": "java",
-            "name": "mainkubus",
-            "request": "launch",
-            "mainClass": "mainkubus",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "siswa",
-            "request": "launch",
-            "mainClass": "siswa",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "nilai_rata2",
-            "request": "launch",
-            "mainClass": "nilai_rata2",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "Lkel",
-            "request": "launch",
-            "mainClass": "Lkel",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "smkn2",
-            "request": "launch",
-            "mainClass": "smkn2",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "xrpl",
-            "request": "launch",
-            "mainClass": "xrpl",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "project_segitiga",
-            "request": "launch",
-            "mainClass": "project_segitiga",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "lat6",
-            "request": "launch",
-            "mainClass": "lat6",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "lat5",
-            "request": "launch",
-            "mainClass": "lat5",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "lat4",
-            "request": "launch",
-            "mainClass": "lat4",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "InputDataScanner",
-            "request": "launch",
-            "mainClass": "InputDataScanner",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "lat1",
-            "request": "launch",
-            "mainClass": "lat1",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "lat3",
-            "request": "launch",
-            "mainClass": "lat3",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "lat1",
-            "request": "launch",
-            "mainClass": "BelajarjavaDasar.lat1",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "lat",
-            "request": "launch",
-            "mainClass": "BelajarjavaDasar.lat",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "lat1",
-            "request": "launch",
-            "mainClass": "BelajarJava.lat1",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "type": "java",
-            "name": "main",
-            "request": "launch",
-            "mainClass": "java.main",
-            "projectName": "Kelas_10_582bb1ff"
-        },
-        {
-            "name": "(gdb) Launch",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "enter program name, for example ${workspaceFolder}/a.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "miDebuggerPath": "/path/to/gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                },
-                {
-                    "description": "Set Disassembly Flavor to Intel",
-                    "text": "-gdb-set disassembly-flavor intel",
-                    "ignoreFailures": true
-                }
-            ]
-        },
-        {
-            "name": "C/C++: g++.exe build and debug active file",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "C:\\MinGW\\bin",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                },
-                {
-                    "description": "Set Disassembly Flavor to Intel",
-                    "text": "-gdb-set disassembly-flavor intel",
-                    "ignoreFailures": true
-                }
-            ],
-            "preLaunchTask": "C/C++: g++.exe build active file"
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
         }
-    ],
-    "version": "2.0.0"
+      ]
+    },
+    {
+      "name": "C/C++: g++.exe build and debug active file",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "C:\\MinGW\\bin",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      "preLaunchTask": "C/C++: g++.exe build active file"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/xampp/htdocs/Kelas_10",
+      "program": "c:/xampp/htdocs/Kelas_10/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ],
+  "version": "2.0.0"
 }
